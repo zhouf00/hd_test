@@ -1,0 +1,41 @@
+>>> s.readline()
+b' I:288475997:I:network_comm(869):Comm failed ,err num 16\n'
+>>> s.readline()
+b' I:288475997:E:network_get_time_from_server(351):get server TIME failed,sleep 63 seconds\n'
+>>> s.readline()
+b'\r\n'
+>>> s.readline()
+b' _____                    _____           _         _   \r\n'
+>>> s.readline()
+b'|  _  |___ ___ ___ ___   |  _  |___ ___  |_|___ ___| |_ \r\n'
+>>> s.readline()
+b"|     |  _| .'| . | . |  |   __|  _| . | | | -_|  _|  _|\r\n"
+>>> s.readline()
+b'|__|__|_| |__,|_  |___|  |__|  |_| |___|_| |___|___|_|  \r\n'
+>>> s.readline()
+b'              |___|                    |___|            \r\n'
+>>> s.readline()
+b'\r\n'
+>>> s.readline()
+b'Arago Project http://arago-project.org SWA3300-ZJZZ ttyO0\r\n'
+>>> s.readline()
+b'\r\n'
+>>> s.readline()
+b'Arago 2013.02 SWA3300-ZJZZ ttyO0\r\n'
+>>> s.readline()
+b'\r\n'
+>>> s.readline()
+b'SWA3300-ZJZZ login: '
+b'Password: '
+
+b' I:288476259:I:network_comm(827):send packet id : 1,len=0\r\n'
+>>> s.readline()
+b' I:288476262:E:com_rx(203):serial rx read nothing in 3 seconds\r\n'
+>>> s.readline()
+b' I:288476262:I:network_comm(869):Comm failed ,err num 20\r\n'
+>>> s.readline()
+b' I:288476262:E:network_get_time_from_server(351):get server TIME failed,sleep 63 seconds\r\n'
+>>> s.readline()
+b
+
+root@SWA3300-ZJZZ:~# \r\ncat VERSION\r\nV2_1_9_71\r\nroot@SWA3300-ZJZZ:~# \r\n

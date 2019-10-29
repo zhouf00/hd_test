@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/串口测试" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/串口测试/串口软件初稿" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/串口测试/串口软件编写" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CS2000V2" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
